@@ -79,7 +79,7 @@ def main(argv=None):
             try:
                 scripter.clear_terminal()
             except KeyError:
-                print("There's no background to clear.")
+                print("There is no background to clear.")
         return
 
     if is_slideshow and options.id <= 0 and size > 1:
